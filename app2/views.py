@@ -11,3 +11,9 @@ def fun3(request):
 
     d={'a':34,'b':545,'c':798}
     return render(request,'conditions.html',context=d)
+
+def for_loop2(request):
+    d={'name':'shashi','age':23}
+
+    return render (request,'for_loop2.html',context=d)
+
